@@ -1,0 +1,151 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+
+p{
+    font-size: 12px;
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(page.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#dep{
+    position: absolute;
+    top: 520px;
+    left: 340px;
+}
+
+#dep .button{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    background: #4C4C4C;
+    background: linear-gradient(180deg,rgba(212, 212, 215, 1) 0%, rgba(122, 122, 130, 1) 50%, rgba(106, 106, 116, 1) 51%, rgba(59, 59, 59, 1) 100%);
+    padding: 12px;
+    border-radius: 12px;
+    border: 5px solid rgba(106, 106, 116, 1);
+}
+
+#dep .button:active{
+    background: linear-gradient(180deg,rgba(127, 127, 136, 1) 0%, rgba(210, 210, 213, 1) 50%, rgba(106, 106, 116, 1) 51%, rgba(59, 59, 59, 1) 100%);
+}
+
+#dep .button:disabled{
+    color: #9b9b9b;
+    background: linear-gradient(180deg,rgba(184, 184, 189, 1) 0%, rgba(106, 106, 116, 1) 50%, rgba(59, 59, 59, 1) 100%);
+}
+
+#dep #problem{
+    position: absolute;
+}
+
+#stat{
+    color: #404040;
+    position: absolute;
+    top: 510px;
+    left: 70px;
+}
+
+#stat a{
+    font-weight: bold;
+    color: #404040;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#stat a:active{
+    text-decoration: none;
+}
+
+#baraban{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+#baraban img{
+    margin-right: 9px;
+}
+
+#score {
+    overflow-y: scroll;
+    width: 386px;
+    height: 310px;
+    position: absolute;
+    top: 132px;
+    left: 91px;
+    padding: 16px;
+}
+
+#score .container {
+    display: flex;
+}
+
+#score .container h1{
+    margin-left: 12px;
+    margin-right: 24px;
+}
+
+#score .container .name_container{
+    margin-left: 24px;
+    margin-right: 12px;
+}
+
+#share {
+    background-color: #c7bdbd94;
+    border: none;
+    padding: 0px;
+}
+
+#share .inner {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    background-color: #fff;
+    border: 1px solid #505050;
+}
+
+#share .head {
+    padding: 5px;
+    background-color: #757575;
+    border-bottom: 1px solid #3e3e3e;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#share #body2 {
+    padding: 13px;
+}
+
+#share .actions {
+    padding: 10px;
+    background-color: #d4d4d4;
+    text-align: right;
+}
+
+#share .inner .actions a {
+    border-radius: 2px;
+    border: #595959;
+    font-size: 11px;
+    outline: none;
+    white-space: nowrap;
+    background: #595959;
+    background-position: 0 -16px;
+    color: #fff;
+    padding: 4px 8px;
+    text-shadow: 0 1px 0 #686868;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
+}
